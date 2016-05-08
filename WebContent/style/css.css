@@ -1,0 +1,53 @@
+.tableForm th{
+	text-align:right;
+}
+.tableForm td{
+	text-align:left;
+	width:150px;
+}
+
+.info {
+	background: #FFFEE6;
+	color: #8F5700;
+	padding: 12px;
+}
+
+.tip {
+	width: 24px;
+	height: 16px;
+	float: left;
+}
+
+img {
+	cursor: pointer;
+}
+
+.pay_btn {
+	
+	margin-top:10px;
+}
+
+.submit_button { 
+	background:url(images/icon.png) no-repeat;
+	width:133px;
+	height:37px;
+	border:none;
+	cursor:pointer;
+	margin-top:10px; 
+}
+
+
+.btn_q04 {
+    background: url("images/btn_q3.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #930;
+    cursor: pointer;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 80px;
+}
+

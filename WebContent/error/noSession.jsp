@@ -1,0 +1,2 @@
+<%@ page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
+<script type="text/javascript" charset="utf-8">try{top.location.href='${pageContext.request.contextPath}/login.jsp';}catch(e){}</script>

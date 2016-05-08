@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery-Guide Dome</title>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/dome.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.guide.js"></script>
+	<script type="text/javascript">
+		function domoGuide() {
+		
+			var guide = $.guide({
+				actions: [
+					{
+						element: $(atest),
+						content: '<p>Welcome, click on the screen at any position to enter the next step</p>'
+					//	offsetX: 140,
+					//	offsetY: 60
+					}
+				]
+			});
+		
+		}
+	</script>
+</head>
+<body>
+<buttom id="domeStartGuideBtn" onclick="domoGuide();">Start Guide</buttom>
+
+<a id="atest" style="position:absolute;top:600px;left:600px;display:none;z-Index:10;" href="http://www.baidu.com">aa</a>
+
+
+</body>
+</html>
